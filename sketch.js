@@ -43,7 +43,7 @@ function draw() {
   drawSprites();
 }
 
-function hasCollided(Lbullet,Lwall)
+function hasCollided(lbullet,lwall)
 {
   bulletRightEdge = lbullet.x + lbullet.width;
   wallLeftEdge = lwall.x;
